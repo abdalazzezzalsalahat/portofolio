@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbdalazizAsalhat</title>
+    <meta name="description"
+        content="Portfolio of Abdalaziz Ali Asalhat, a DevOps Engineer specializing in AWS, Azure, GCP, Kubernetes, and Automation.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/all.min.css">
+</head>
+
+<body>
+    <input type="checkbox" id="profile-switch" class="profile-checkbox">
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">AZEEZ</div>
+            <ul class="nav-links">
+                <li><a href="#me">Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#beyond">Beyond</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#tools">Tools</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="me" class="hero formal-mode">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="fade-in">ABDALAZIZ ALSALAHAT</h1>
+                <p class="subtitle fade-in">DevOps Engineer</p>
+                <div class="description-box glass fade-in">
+                    <div class="formal-desc">
+                        <p>DevOps Engineer with 3+ years of experience in cloud infrastructure, automation, and
+                            security. Expertise in AWS, Kubernetes, Terraform, and CI/CD pipelines.</p>
+                        <p>Passionate about optimizing cloud operations, improving security, and reducing deployment
+                            time.</p>
+                        <p>Strong problem-solver and team player, dedicated to delivering scalable and secure cloud
+                            solutions.</p>
+                    </div>
+                    <div class="casual-desc">
+                        <p>DevOps Engineer by day, strategist and coffee enthusiast by night. 3+ years of
+                            building cloud fortresses and automating the "impossible" while keeping the pipelines green.
+                        </p>
+                        <p>When I'm not scaling K8s or hardening security, I'm likely at the gym, swimming, or planning
+                            a winning Chess gambit. I'm a social extrovert who believes great infra starts with great
+                            coffee.</p>
+                        <p>Always reading, always learning, and always ready to lead the team towards the next big
+                            release. Let's make tech awesome together!</p>
+                    </div>
+                </div>
+                <div class="contact-info fade-in">
+                    <span><i class="fas fa-envelope"></i> Abdalazzezzalsalahat@gmail.com</span>
+                    <span><i class="fas fa-phone"></i> 00962 786792529</span>
+                </div>
+                <div class="social-links fade-in">
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-container fade-in">
+                <div class="profile-toggle-container">
+                    <label for="profile-switch" class="toggle-label">
+                        <span class="formal-label">Formal</span>
+                        <div class="switch"></div>
+                        <span class="casual-label">Casual</span>
+                    </label>
+                </div>
+                <div class="image-frame-container">
+                    <div class="image-frame formal-frame">
+                        <img src="assets/profile-formal.png" alt="Abdalaziz Formal">
+                    </div>
+                    <div class="image-frame casual-frame">
+                        <img src="assets/profile-casual.png" alt="Abdalaziz Casual">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Selected Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card glass">
+                <h3>Na3eeman</h3>
+                <p class="role">Full-Stack Developer</p>
+                <p>Production-ready barber booking platform. Provisioned GCP resources via Terraform, containerized with
+                    Docker, and automated via GitHub Actions.</p>
+                <div class="tags">
+                    <span>GCP</span><span>Terraform</span><span>Docker</span><span>Django</span>
+                </div>
+            </div>
+            <div class="project-card glass">
+                <h3>Gaskom</h3>
+                <p class="role">Developer</p>
+                <p>Modern on-demand gas delivery platform. Containerized with Docker, deployed via Coolify, and secured
+                    via Cloudflare.</p>
+                <div class="tags">
+                    <span>Docker</span><span>Coolify</span><span>Cloudflare</span><span>Prometheus</span>
+                </div>
+            </div>
+            <div class="project-card glass">
+                <h3>Weddinger & No-Mask Catcher</h3>
+                <p class="role">Team Lead</p>
+                <p>Led cross-functional teams to deliver a wedding venue platform and an ML-based computer vision
+                    security system.</p>
+                <div class="tags">
+                    <span>Python</span><span>Django</span><span>ML</span><span>Docker</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item glass right">
+                <div class="content">
+                    <h3>Independent DevOps Consultant</h3>
+                    <p class="company">Multiple Clients (AZCare, Digitinary, Proxidize, simple systems for local
+                        clients)</p>
+                    <p class="date">04/2025 – Present</p>
+                    <ul>
+                        <li>Architected infrastructure on Microsoft Azure using Terraform.</li>
+                        <li>Refactored CI/CD pipelines on Azure, reducing maintenance overhead.</li>
+                        <li>Managed 100+ hybrid servers ensuring high availability and security.</li>
+                        <li>Managed OpenBanking environments via GitOps (ArgoCD), K8s, and Helm.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item glass left">
+                <div class="content">
+                    <h3>DevOps Engineer</h3>
+                    <p class="company">ProgressSoft - Arab Bank/ADIB</p>
+                    <p class="date">06/2024 – 03/2025</p>
+                    <ul>
+                        <li>Owned lifecycle of 15+ microservices on K8s using Helm and Docker.</li>
+                        <li>Resolved critical production issues, reducing incident MTTR by 65%.</li>
+                        <li>Centralized IAM using Keycloak to enforce least privilege access.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item glass right">
+                <div class="content">
+                    <h3>DevOps Engineer</h3>
+                    <p class="company">CDS Global - USA/Iowa</p>
+                    <p class="date">10/2021 – 12/2023</p>
+                    <ul>
+                        <li>Spearheaded zero-downtime migration from on-prem to AWS using Terraform.</li>
+                        <li>Built Python/Boto3 tool for AWS resource tagging compliance.</li>
+                        <li>Hardened cloud security using Wiz.io, remediating 100+ vulnerabilities.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beyond" class="section">
+        <h2 class="section-title">Beyond the Code</h2>
+        <div class="beyond-grid">
+            <div class="beyond-card glass sticker-container">
+                <img src="assets/sticker-coffee.png" class="sticker sticker-top-right" alt="Coffee Sticker">
+                <img src="assets/sticker-chess.png" class="sticker sticker-bottom-left" alt="Chess Sticker">
+                <h3><i class="fas fa-heart"></i> Hobbies & Interests</h3>
+                <div class="beyond-item">
+                    <h4><i class="fas fa-book"></i> Reading</h4>
+                    <div class="tags">
+                        <span>Novels</span><span>Self Awareness</span><span>Social Engineering</span><span>Tech
+                            Updates</span><span>Anatomy & Brain Cells</span>
+                    </div>
+                </div>
+                <div class="beyond-item">
+                    <p><i class="fas fa-chess-pawn"></i> <strong>Chess</strong> - Strategizing on and off the board.</p>
+                </div>
+                <div class="beyond-item">
+                    <p><i class="fas fa-swimmer"></i> <strong>Swimming & Gym</strong> - Keeping the physical engine
+                        running.</p>
+                </div>
+                <div class="beyond-item">
+                    <p><i class="fas fa-tv"></i> <strong>Anime</strong> - Enjoying deep storytelling and animation.</p>
+                </div>
+            </div>
+            <div class="beyond-card glass sticker-container">
+                <img src="assets/sticker-tech.png" class="sticker sticker-bottom-right" alt="Tech Sticker">
+                <h3><i class="fas fa-users"></i> Social Persona</h3>
+                <ul class="beyond-list">
+                    <li><i class="fas fa-comments"></i> <strong>Social & Extrovert</strong> - I thrive in collaborative
+                        and social environments.</li>
+                    <li><i class="fas fa-coffee"></i> <strong>Coffee Enthusiast</strong> - A dedicated drinker and
+                        taster of fine beans.</li>
+                    <li><i class="fas fa-calendar-check"></i> <strong>Planner by Nature</strong> - Strategic planner
+                        (even if I sometimes skip my own schedule!).</li>
+                    <li><i class="fas fa-crown"></i> <strong>Natural Leader</strong> - Driven by ownership and team
+                        success.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section mountain-bg">
+        <h2 class="section-title">Education</h2>
+        <div class="education-container glass">
+            <div class="edu-item">
+                <h3>Bachelor of Software Engineering</h3>
+                <p>Zarqa Private University | 2016 – 2020</p>
+                <span class="gpa">GPA: Good</span>
+            </div>
+            <div class="edu-item">
+                <h3>Advanced Python Course</h3>
+                <p>LTUC - ASAC | Feb 2021 – Jul 2021</p>
+                <span class="gpa">GPA: 97.8% Excellent</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="section">
+        <h2 class="section-title">Technical Tools & Skills</h2>
+        <div class="tools-grid">
+            <div class="tool-category glass">
+                <h3>Cloud Platforms</h3>
+                <div class="icon-group">
+                    <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                    <i class="devicon-azure-plain colored"></i>
+                    <i class="devicon-googlecloud-plain colored"></i>
+                    <i class="devicon-digitalocean-original colored"></i>
+                    <i class="devicon-cloudflare-plain colored"></i>
+                </div>
+            </div>
+            <div class="tool-category glass">
+                <h3>IaC & Containers</h3>
+                <div class="icon-group">
+                    <i class="devicon-terraform-plain colored"></i>
+                    <i class="devicon-docker-plain colored"></i>
+                    <i class="devicon-kubernetes-plain colored"></i>
+                    <i class="devicon-helm-original colored"></i>
+                    <i class="devicon-argocd-plain colored"></i>
+                </div>
+            </div>
+            <div class="tool-category glass">
+                <h3>CI/CD & Automation</h3>
+                <div class="icon-group">
+                    <i class="devicon-githubactions-plain colored"></i>
+                    <i class="devicon-gitlab-plain colored"></i>
+                    <i class="devicon-azuredevops-plain colored"></i>
+                </div>
+            </div>
+            <div class="tool-category glass">
+                <h3>Security & Observability</h3>
+                <div class="icon-group">
+                    <i class="devicon-prometheus-original colored"></i>
+                    <i class="devicon-grafana-original colored"></i>
+                    <i class="devicon-datadog-plain colored"></i>
+                </div>
+            </div>
+            <div class="tool-category glass">
+                <h3>Languages</h3>
+                <div class="icon-group">
+                    <i class="devicon-python-plain colored"></i>
+                    <i class="devicon-bash-plain colored"></i>
+                    <i class="devicon-postgresql-plain colored"></i>
+                    <i class="devicon-django-plain colored"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Abdalaziz Ali Asalhat. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
