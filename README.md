@@ -15,14 +15,14 @@ A premium, modern, and interactive portfolio website built for **Abdalaziz Ali A
 
 ## 🛠️ Tech Stack
 
-- **HTML5**: Semantic structure and modern SEO practices.
+- **HTML5**: Semantic structure and SEO practices.
 - **CSS3 (Vanilla)**: Custom styling system with CSS Variables for theme management, Flexbox/Grid layouts, and CSS Keyframe animations.
 - **JavaScript**: Smooth scroll reveal effects and interactive navbar behavior.
 - **Assets**: High-resolution custom backgrounds and hand-crafted anime-style stickers.
 
 ## 🚀 Getting Started
 
-Simply open the `index.html` file in any modern web browser to view the portfolio.
+Simply open the `index.html` file in any web browser to view the portfolio.
 
 ```bash
 # To run a simple local server (requires Python)
